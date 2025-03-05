@@ -19,16 +19,6 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Install
-        uses: borales/actions-yarn@v5
-        with:
-          cmd: install
-
-      - name: Build
-        uses: borales/actions-yarn@v5
-        with:
-          cmd: build
-
       - name: Publish
         run: npm publish --access public
         env:
