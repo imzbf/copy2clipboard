@@ -19,5 +19,6 @@
     "index.d.ts"
   ],
   "types": "./index.d.ts",
-  "main": "./index.js"
+  "main": "./index.js",
+  "module": "./index.mjs"
 }
